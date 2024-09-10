@@ -3,9 +3,17 @@
 
 #include <iostream>
 
+// Brandon Chambers
+// 9/10/24 
+// Chapter 2 Checkpoint Exercises
+// Checkpoint_2-14
+
 int main()
 {
-    std::cout << "Hello World!\n";
+    char first = 'B';
+    char middle = 'L';
+    char last = 'C';
+    std::cout << "My Initials Are: " << first << middle << last;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
