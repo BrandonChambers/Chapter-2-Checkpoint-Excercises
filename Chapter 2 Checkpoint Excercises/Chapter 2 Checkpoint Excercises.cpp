@@ -10,8 +10,10 @@
 
 int main()
 {
-    char first = 'B';
-    char middle = 'L';
-    char last = 'C';
-    std::cout << "My Initials Are: " << first << middle << last;
+    int age = 30;
+    float weight = 210.2;
+
+    std::cout << "My Age is: " << age << std::endl;
+    std::cout << "My weight is: " << weight << std::endl;
+
 }
