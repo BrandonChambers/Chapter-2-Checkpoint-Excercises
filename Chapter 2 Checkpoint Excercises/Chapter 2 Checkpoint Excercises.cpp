@@ -17,9 +17,9 @@ int main()
     std::string address = "1234 Elm Stree Springfield, VA 22150";
     std::string phone_number = "867-5309";
 
-    std::cout << "My name is: " << name;
-    std::cout << "My address is: " << address;
-    std::cout << "My phone number is: " << phone_number;
+    std::cout << "My name is: " << name << "\nl";
+    std::cout << "My address is: " << address << "\nl";
+    std::cout << "My phone number is: " << phone_number << "\nl";
     
 }
 
