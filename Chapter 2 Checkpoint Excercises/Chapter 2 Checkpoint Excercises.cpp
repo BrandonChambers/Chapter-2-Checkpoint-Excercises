@@ -2,19 +2,24 @@
 //
 
 #include <iostream>
+#include <string>
+;
+
+// Brandon Chambers
+// 9/10/24 
+// Chapter 2 Checkpoint Exercises
+// Checkpoint_2-17
+// Note: Address and phone number are random generated for privacy purposes.
 
 int main()
 {
-    std::cout << "Hello World!\n";
+    std::string name = "Brandon Chambers";
+    std::string address = "1234 Elm Stree Springfield, VA 22150";
+    std::string phone_number = "867-5309";
+
+    std::cout << "My name is: " << name;
+    std::cout << "My address is: " << address;
+    std::cout << "My phone number is: " << phone_number;
+    
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
